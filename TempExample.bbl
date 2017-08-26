@@ -1,0 +1,51 @@
+\begin{thebibliography}{10}
+
+\bibitem{Harpold1979Shuttle}
+HARPOLD J C,GRAVES C A.Shuttle entry guidance[J].The Journal of the
+  Astronautical Sciences,1979,37(3):239-268.
+
+\bibitem{Yu2011Guidance}
+YU W B,CHEN W C.Guidance scheme for glide range maximization of a hypersonic
+  vehicle,AIAA-2011-6714[R].Reston:AIAA,2011.
+
+\bibitem{Hu2015Steady}
+胡锦川,陈万春.高超声速飞行器平稳滑翔弹道设计方法[J].北京航空航天大学学报,2015,41(8):1464-1475.\\
+  HU J C,CHEN W C.Steady glide trajectory planning method for hypersonic
+  reentry vehicle[J].Journal of Beijing University of Aeronautics and
+  Astronautics,2015,41(8):1464-1475(in Chinese).
+
+\bibitem{Laning1956Random}
+LANING J H,BATTIN R H.Random processes in automatic control[M].New
+  York:McGraw-Hill Book Company, Inc.,1956:225-253.
+
+\bibitem{Zarchan2013Tactical}
+ZARCHAN P.Tactical and strategic missile guidance[M].6th
+  ed.Reston:AIAA,2013:35-105.
+
+\bibitem{Zadeh1963Linear}
+ZADEH L A,DESOER C A.Linear system theory: the state space approach[M].New
+  York:McGraw-Hill,1963:337-367.
+
+\bibitem{Weiss2005Adjoint}
+WEISS M.Adjoint method for missile performance analysis on state-space
+  models[J].Journal of Guidance Control \& Dynamics,2005,28(2):236-248.
+
+\bibitem{Zarchan1979Complete}
+ZARCHAN P.Complete statistical analysis of nonlinear missile guidance systems -
+  {SLAM}[J].Journal of Guidance and Control,1979,2(1):71-78.
+
+\bibitem{Weiss2005Handover}
+WEISS M,BUCCO D.Handover analysis for tactical guided weapons using the adjoint
+  method,AIAA-2005-6157[R].Reston:AIAA,2005.
+
+\bibitem{Lin1996ResearchAdjoint}
+林晓辉,崔乃刚,刘暾.伴随理论及其在仿真中应用的研究[J].航天控制,1996,(3):61-65.\\
+  LIN X H,CUI N G,LIU D.Research on adjoint system theory and its application
+  in simulation technology[J].Aerospace Control,1996,(3):61-65(in Chinese).
+
+\bibitem{Zou2001Adjoint}
+邹晖,陈万春,邢晓岚.导弹制导精度MATRIXx伴随分析系统[J].飞行力学,2001,19(4):73-77.\\
+  ZOU H,CHEN W C,XING X L.MATRIXx adjoint system for miss distance
+  analysis[J].Flight Dynamics,2001,19(4):73-77(in Chinese).
+
+\end{thebibliography}

@@ -1,0 +1,78 @@
+
+
+\documentclass[10pt,plain]{article}
+\pagestyle{empty}
+\usepackage{tikz}
+\usepackage{pgf,pgfarrows,pgfnodes,pgfautomata,pgfheaps,pgfshade}
+\usepackage{pgfplotstable}
+\usepackage{siunitx,booktabs}
+\usepackage{pgfplots}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{setspace}
+\pgfplotsset{compat=1.14}
+
+\usepackage{amsmath,amssymb,amsfonts,mathrsfs,bm}
+
+\usepackage[margin=2cm]{geometry}
+
+
+\newlength{\basewidth}
+  \setlength{\basewidth}{8cm}%
+  
+  
+  \usepackage[scheme=plain]{ctex}
+\setmainfont{Times New Roman}
+\setCJKfamilyfont{hwxingkai}{STXingkai}
+\newcommand{\hwxingkai}{\CJKfamily{hwxingkai}}
+\usepackage{xeCJK}
+% \setCJKmainfont[BoldFont=SimHei]{SimSun}
+\setCJKfamilyfont{hei}{SimHei}
+\setCJKfamilyfont{kai}{KaiTi}
+\setCJKfamilyfont{fang}{FangSong}
+\newcommand{\hei}{\CJKfamily{hei}}
+\newcommand{\kai}{\CJKfamily{kai}}
+\newcommand{\fang}{\CJKfamily{fang}}
+
+\newcommand{\erhao}{\fontsize{22pt}{\baselineskip}\selectfont}      % 字号设置
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}      % 字号设置
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}  % 字号设置
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}    % 字号设置
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}   % 字号设置
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}  % 字号设置
+\newcommand{\myxiaoliuhao}{\fontsize{6.5pt}{\baselineskip}\selectfont}  % 字号设置
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}    % 字号设置
+  
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage{makecell}
+\renewcommand\cellgape{\Gape[-3pt][-5pt]}
+% \renewcommand\cellgape{\gape[t]}
+% \setcellgapes[t]{-3pt}
+
+\usepackage{xr}
+\externaldocument{TempExample}
+    
+\begin{document}
+
+\newcommand{\Expect}{{\rm I\kern-.3em E}}
+
+\centering 
+{\sihao \textbf{变量符号说明}}\\
+\wuhao
+\tabulinesep=1.2mm
+   \begin{longtabu} to 0.85\linewidth {|X[c,m]|X[1.2,c,m]|X[1.8,c,m]|X[3,c,m]|X[3,c,m]|}
+        \hline
+        \textbf{符号}  & \textbf{文中位置}   & \textbf{类型} & \textbf{上下标说明} & \textbf{物理含义} \\ \hline
+        \endhead
+        $a$ & 式(\ref{eqnLabelp})   & 标量 &   & \\ \hline
+        $\bm y$ & 式(\ref{eqnLabelp})   & 向量 &   & \\ \hline
+        $\bm A$ & 式(\ref{eqnLabelp})   & 矩阵 &   & \\ \hline
+        $\mathcal{L}$ & 式(\ref{eqnLabelp})   & 函数 &   & \\ \hline
+        $n_{\textnormal{He}}$ & 式(\ref{eqnLabelp}) & 标量 &  氦气化学符号 & \\ \hline
+        $t_{\mathrm{f}}$ & 式(\ref{eqnLabelp})   & 标量 &  ``final"的首字母 & \\ \hline
+        $\mathbb{R}^n$ & 节\ref{labSecForm}   & 空间 & 空间维数  & \\ \hline
+        $\mathrm{d}\tau$ & 式(\ref{eqnLabelp}) & 微分 &   &  \\ \hline
+   \end{longtabu}
+
+\end{document} 
