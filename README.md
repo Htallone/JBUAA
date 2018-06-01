@@ -35,4 +35,7 @@ Symbol 文件夹下是《变量符号说明》生成文档
 增加了符号在文中的位置的信息，需要辅助文件TempExample.aux
 
 
+![shot](shot.png)
+
+
 
