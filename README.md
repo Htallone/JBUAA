@@ -22,10 +22,10 @@ image 文件夹下是正文中用到的图片文件
 
 在完整安装texlive 2016 或者 texlive 2017条件下，直接在命令行按顺序运行如下命令即可
 
-xelatex TempExample.tex
-bibtex TempExample
-xelatex TempExample.tex
-xelatex TempExample.tex
+xelatex TempExample.tex\\  
+bibtex TempExample\\  
+xelatex TempExample.tex\\  
+xelatex TempExample.tex 
 
 最终生成TempExample.pdf文件
 
